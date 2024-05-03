@@ -1,0 +1,33 @@
+@layer theme {
+  :root {
+    /* colors */
+    --clr-primary-orange: hsl(24, 56%, 63%);
+    --clr-primary-black: hsl(0 0 8%);
+
+    --clr-secondary-gray: hsl(0 0 27%);
+
+    --clr-neutral-white: hsl(0 0 100%);
+
+    /* typography */
+    --ff-body: "Outfit", sans-serif;
+    --ff-heading: "Big Shoulders Display", sans-serif;
+
+    --fs-300: 1rem; /* 16px */
+    --fs-400: 1.125rem; /* 18px */
+    --fs-450: 1.25rem; /* 20px */
+    --fs-600: 2rem; /* 32px */
+    --fs-700: 3.125rem; /* 50px */
+    --fs-900: 3.75rem; /* 60px */
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 800;
+    --fw-bold: 900;
+
+    --lh-300: 1.625rem; /* 26px */
+    --lh-400: 1.75rem; /* 28px */
+    --lh-600: 2rem; /* 32px */
+    --lh-700: 2.8125rem; /* 45px */
+    --lh-900: 3.4375rem; /* 55px */
+  }
+}

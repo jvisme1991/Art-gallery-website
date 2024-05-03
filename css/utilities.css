@@ -1,0 +1,90 @@
+@import url(theme.css);
+@layer utilities {
+  body {
+    max-width: 1440px;
+    margin-inline: auto;
+    background-color: hsl(0, 0%, 69%);
+  }
+
+  .bg-light--grey {
+    background-color: white;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .inline-flex {
+    display: inline-flex;
+  }
+
+  .grid {
+    display: grid;
+  }
+
+  .container {
+    width: 91%;
+    margin-inline: auto;
+  }
+
+  .bg-black {
+    background-color: var(--clr-primary-black);
+    color: var(--clr-neutral-white);
+  }
+
+  #button {
+    font-size: var(--fs-450);
+    letter-spacing: 3.636px;
+    font-family: var(--ff-heading);
+    font-weight: var(--fw-semi-bold);
+    color: var(--clr-neutral-white);
+    background-color: var(--clr-primary-black);
+    border: none;
+    padding: 1.5rem 2rem;
+    text-transform: uppercase;
+    margin-top: 0.5px;
+  }
+
+  .arrow {
+    background-color: var(--clr-primary-orange);
+    width: 56px;
+    height: 77px;
+    padding: 1.5rem;
+    flex-shrink: 0;
+  }
+
+  #button:hover,
+  #button:focus {
+    cursor: pointer;
+    background-color: var(--clr-primary-orange);
+    transition: 0.5s;
+  }
+
+  .icons {
+    width: 20px;
+    aspect-ratio: 1;
+  }
+
+  .card > * {
+    width: 98%;
+    margin-inline: auto;
+    color: var(--clr-neutral-white);
+  }
+
+  .card {
+    padding: 3rem 1.5rem;
+    margin: 1rem 0 120px;
+  }
+
+  .card p {
+    margin-top: 2rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+}

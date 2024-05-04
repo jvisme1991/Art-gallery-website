@@ -44,15 +44,14 @@
     color: var(--clr-neutral-white);
     background-color: var(--clr-primary-black);
     border: none;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 32px 1.5rem 2rem;
     text-transform: uppercase;
-    margin-top: 0.5px;
   }
 
   .arrow {
     background-color: var(--clr-primary-orange);
     width: 56px;
-    height: 77px;
+    height: 78px;
     padding: 1.5rem;
     flex-shrink: 0;
   }
@@ -64,9 +63,15 @@
     transition: 0.5s;
   }
 
+  #button:hover + .header__button__arrow {
+    cursor: pointer;
+    background-color: var(--clr-primary-black);
+    transition: .5s;
+  }
+
   .icons {
     width: 20px;
-    aspect-ratio: 1;
+    height: 20px;
   }
 
   .card > * {
@@ -81,7 +86,7 @@
   }
 
   .card p {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
 
   .desktop {
